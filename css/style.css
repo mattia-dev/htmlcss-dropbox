@@ -63,6 +63,18 @@ body {
     font-size: 13px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: #0061ff;
+}
+
 ul {
     list-style: none;
 }
@@ -82,6 +94,8 @@ nav {
     width: 100%;
     background-color: white;
     padding: 25px 0; 
+    position: fixed;
+    z-index: 1001;
 }
 
 .nav-element-list, .nav-element-button nav ul {
@@ -109,14 +123,14 @@ nav {
 /* start of jumbo */
 .jumbo {
     background-color: #b4d0e7;
-    height: 760px;
+    height: 830px;
 }
 
 h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 95px;
     line-height: 110px;
-    padding-top: 50px;
+    padding-top: 120px;
 }
 
 .left-content, .right-content {
@@ -229,10 +243,6 @@ main > .container:first-child {
     padding-top: 20px;
 }
 
-.text-medium > a {
-    color: #0061ff;
-}
-
 .container-column hr {
     width: 50px;
     margin: 30px 0 30px 0;
@@ -281,7 +291,7 @@ main > .container:first-child {
 }
 
 .box-2 {
-    margin: 60px 0;
+    margin-top: 120px;
     position: relative;
     height: 482px;
 }
@@ -314,18 +324,52 @@ main > .container:first-child {
     border: 1px solid black;
 }
 
+.box-3 {
+    margin: 120px 0 100px 0;
+}
+
 .box-3-item {
     width: calc(100% / 3 - 30px);
 }
 
 .box-3-image {
     width: 100%;
+    margin-top: 50px;
 }
 
 .box-3-title {
     font-size: 30px;
+    line-height: 32px;
+    margin: 25px 0;
+}
+
+.box-3-text {
+    height: 180px;
 }
 
 .box-3-item:nth-child(3n+2) {
     margin: 0 45px;
+}
+
+.box-4 > .title-big {
+    width: 54%;
+    line-height: 45px;
+}
+
+.clients-link {
+    margin: 20px 0;
+}
+
+.colored-container:first-child {
+    background-color: red;
+}
+
+.colored-container {
+    width: calc((100vw - 16.8px) / 3);
+    height: ;
+    /* height: calc((100vw - 16.8px) / 3); */
+}
+
+.colored-container:last-child {
+    background-color: blue;
 }
