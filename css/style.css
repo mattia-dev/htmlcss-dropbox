@@ -152,7 +152,7 @@ h1 {
 /* end of jumbo */
 
 /* start of columns section */
-main > .container {
+main > .container:first-child {
     margin-top: 190px;
 }
 
@@ -312,4 +312,20 @@ main > .container {
     color: black;
     padding: 10px 20px;
     border: 1px solid black;
+}
+
+.box-3-item {
+    width: calc(100% / 3 - 30px);
+}
+
+.box-3-image {
+    width: 100%;
+}
+
+.box-3-title {
+    font-size: 30px;
+}
+
+.box-3-item:nth-child(3n+2) {
+    margin: 0 45px;
 }
