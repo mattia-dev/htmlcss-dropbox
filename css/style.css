@@ -1,0 +1,282 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* clearfix and float classes */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* bigger and smaller container */
+.container-big {
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* text utility classes */
+.title-big {
+    font-size: 40px;
+}
+
+.title-medium {
+    font-size: 25px;
+}
+
+.title-small {
+    font-size: 16px;
+}
+
+.text-big {
+    font-size: 17px;
+}
+
+.text-medium {
+    font-size: 15px;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* buttons utility classes */
+.big-button {
+    font-size: 17px;
+    text-align: center;
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 20px;
+    /* max-width: 70% */
+}
+
+/* start of navbar */
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 0; 
+}
+
+.nav-element-list, .nav-element-button nav ul {
+    display: inline-block;
+}
+
+[class^="nav-element-"] {
+    margin: 0 20px;
+}
+
+.nav-element-list {
+    height: 25px;
+    line-height: 25px;
+}
+
+.small-button {
+    background-color: #0061ff;
+    color: white;
+    padding: 6px 20px;
+    position: relative;
+    bottom: 3px;
+}
+/* end of navbar */
+
+/* start of jumbo */
+.jumbo {
+    background-color: #b4d0e7;
+    height: 760px;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 95px;
+    line-height: 110px;
+    padding-top: 50px;
+}
+
+.left-content, .right-content {
+    margin-top: 40px;
+}
+
+.left-content {
+    width: 27%;
+}
+
+.right-content {
+    width: 73%;
+}
+
+.jumbo-element {
+    margin-bottom: 25px;
+}
+
+.jumbo-element > .big-button {
+    margin-bottom: 10px;
+    max-width: 70%;
+}
+
+.arrow {
+    font-size: 60px;
+}
+
+.right-content img {
+    width: 100%;
+    position: relative;
+    left: 60px;
+}
+/* end of jumbo */
+
+/* start of columns section */
+main > .container {
+    margin-top: 190px;
+}
+
+.subscription-buttons {
+    margin: 35px 0;
+}
+
+.subscription-buttons label:first-of-type {
+    margin-right: 20px;
+}
+
+[class^="column-"] {
+    width: calc(100% / 3 - 50px);
+    border: 1px solid #d0d0d3;
+}
+
+.column-2 {
+    margin: 0 75px;
+}
+
+[class^="category-"] {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+[class^="category-"] img {
+    margin-right: 10px;
+}
+
+.container-column, .section-content {
+    padding: 30px;
+}
+
+.container-column .text-big {
+    font-weight: bold;
+}
+
+.container-column .text-big:first-of-type {
+    margin: 15px 0 10px 0;
+}
+
+.container-column .text-medium:nth-child(3) {
+    height: 40px;
+    color: #637381
+}
+
+.first-list {
+    height: 160px;
+    margin: 30px 0;
+}
+
+.first-list li:nth-of-type(2) {
+    margin: 20px 0;
+}
+
+.container-column img {
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+.container-column .item {
+    display: inline-block;
+}
+
+.first-list .item {
+    width: calc(100% - 21px);
+}
+
+.purchase-link {
+    padding-top: 20px;
+}
+
+.text-medium > a {
+    color: #0061ff;
+}
+
+.container-column hr {
+    width: 50px;
+    margin: 30px 0 30px 0;
+    border: none;
+    border-top: 1px solid #bfbfbf;
+}
+
+.container-column .text-big:last-of-type {
+    margin-bottom: 20px;
+}
+
+.second-list {
+    height: 260px;
+}
+
+.second-list li:not(.second-list li:first-child) {
+    margin-top: 15px;
+}
+
+.check {
+    width: 15px;
+    color: #0061ff;
+    margin-right: 5px;
+}
+
+.second-list .item {
+    width: calc(100% - 20px);
+}
+
+section.box {
+    border: 1px solid #d0d0d3;
+    margin: 60px 0;
+}
+
+.section-left-content {
+    width: calc(100% - (100% / 3 - 50px));
+}
+
+.section-right-content {
+    width: calc(100% / 3 - 50px);
+}
+
+.section-left-content .text-big {
+    font-weight: bold;
+    margin: 20px 0;
+}
