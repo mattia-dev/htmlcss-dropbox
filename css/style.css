@@ -314,7 +314,7 @@ main > .container:first-child {
     margin: 25px 0;
 }
 
-.box-2-text > .box-button {
+.box-2-button {
     width: 40%;
     font-size: 17px;
     text-align: center;
@@ -357,19 +357,112 @@ main > .container:first-child {
 }
 
 .clients-link {
-    margin: 20px 0;
+    margin: 25px 0 50px 0;
 }
 
-.colored-container:first-child {
-    background-color: red;
-}
-
-.colored-container {
+[class^="colored-container-"] {
     width: calc((100vw - 16.8px) / 3);
-    height: ;
-    /* height: calc((100vw - 16.8px) / 3); */
+    height: calc((100vw - 16.8px) / 3);
 }
 
-.colored-container:last-child {
-    background-color: blue;
+[class^="small-container-"] {
+    width: 50%;
+    height: 50%;
+}
+
+.small-container-1 {
+    background-color: #a2d39b;
+}
+
+.small-container-2 {
+    background-color: #61082b;
+}
+
+.small-container-3 {
+    background-color: #0093ce;
+}
+
+.small-container-4 {
+    background-color: #ff1c1c;
+}
+
+.box-5 img:not(.img-container > img) {
+    width: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+} 
+
+.colored-container-2 {
+    background-color: #f5f5f5;
+}
+
+.img-container {
+    width: 100%;
+    height: calc(100% / 3);
+    padding-left: 50px;
+}
+
+#central-image {
+    width: 25%;
+    padding: 60px 0 30px 0;
+}
+
+.colored-container-2 hr {
+    width: 55px;
+    border: none;
+    border-top: 1px solid #bfbfbf;
+}
+
+.text-container {
+    max-width: 80%;
+    margin: 60px auto;
+}
+
+.text-container > .text-medium {
+    margin-top: 45px;
+}
+
+.small-container-5 {
+    background-color: #d5001f;
+}
+
+.small-container-6 {
+    background-color: #b4d0e7;
+}
+
+.small-container-7 {
+    background-color: #0d2481;
+}
+
+.small-container-8 {
+    background-color: #ffd830;
+}
+
+.box-6 {
+    height: 330px;
+    background-color: #b4d0e7;
+}
+
+.box-6 .container {
+    padding: 120px 0;
+}
+
+.box-6 .title-big {
+    color: #61082b;
+    line-height: 45px;
+    width: calc(65% - 80px);
+    margin-right: 80px;
+}
+
+.box-6-button {
+    width: calc(35% - 80px);
+    font-size: 17px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 80px;
 }
