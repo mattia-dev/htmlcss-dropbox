@@ -466,3 +466,41 @@ main > .container:first-child {
     padding: 10px 20px;
     margin-left: 80px;
 }
+
+.box-7 {
+    padding: 150px 0;
+    
+}
+
+.box-7-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.faq {
+    margin-top: 50px;
+}
+
+.faq-row {
+    position: relative;
+    height: 85px;
+    border-top: 1px solid #d0d0d3;
+}
+
+.faq-row:last-child {
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.question {
+    display: inline-block;
+    line-height: 85px;
+}
+
+.open-faq {
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
