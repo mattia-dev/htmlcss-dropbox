@@ -504,3 +504,53 @@ main > .container:first-child {
     top: 50%;
     transform: translate(0, -50%);
 }
+
+footer {
+    height: 660px;
+    background-color: black;
+}
+
+.footer-box {
+    padding: 150px 0;
+}
+
+.footer-column {
+    width: calc(100% / 5 - 28px);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.footer-column:nth-child(even) {
+    margin: 0 35px;
+}
+
+.footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.footer-column li:not(.footer-column li:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-line {
+    width: 100px;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.language-selection{
+    padding-top: 40px;
+}
+
+.language-selection img {
+    filter: invert(100%);
+    width: 22px;
+    vertical-align: middle;
+}
+
+.language-selection .text-small {
+    display: inline-block;
+    color: #666;
+    font-weight: bold;
+}
